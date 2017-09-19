@@ -1,4 +1,4 @@
-stage 'Checkout' {
+stage 'Checkout'
     node('slave') {
         deleteDir()
         checkout(
@@ -9,4 +9,3 @@ stage 'Checkout' {
             submoduleCfg: [], 
             userRemoteConfigs: [[url: 'https://github.com/caiomartini/jenkisfile.git']]])
     }
-}
