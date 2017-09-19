@@ -1,0 +1,6 @@
+C:\github\jenkisfile\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe.config
+C:\github\jenkisfile\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.exe
+C:\github\jenkisfile\ConsoleApp1\ConsoleApp1\bin\Debug\ConsoleApp1.pdb
+C:\github\jenkisfile\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.csprojResolveAssemblyReference.cache
+C:\github\jenkisfile\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.exe
+C:\github\jenkisfile\ConsoleApp1\ConsoleApp1\obj\Debug\ConsoleApp1.pdb
