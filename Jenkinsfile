@@ -6,7 +6,7 @@ node {
         checkout scm
     }
     stage("Build") {
-		bat "\"${tool 'MSBuild'}\" ConsoleApp1/ConsoleApp1.sln /m /p:Configuration=Release /p:Platform=\"Any CPU\" /p:ProductVersion=1.0.0.${env.BUILD_NUMBER}"
+		bat "\"${tool 'MSBuild'}\" ConsoleApp1/${params.Solution}.sln /m /p:Configuration=Release /p:Platform=\"Any CPU\" /p:ProductVersion=1.0.0.${env.BUILD_NUMBER}"
         archiveArtifacts "**/bin/Release/*.exe"
     }
 }
