@@ -1,12 +1,8 @@
-stage('Checkout') {
-    node('slave') {
+#!/usr/bin/env groovy
+
+node {
+    stage("Checkout") {
         deleteDir()
-        checkout(
-            [$class: 'GitSCM', 
-            branches: [[name: '*/master']], 
-            doGenerateSubmoduleConfigurations: false, 
-            extensions: [], 
-            submoduleCfg: [], 
-            userRemoteConfigs: [[url: 'https://github.com/caiomartini/jenkisfile.git']]])
+        checkout scm
     }
 }
